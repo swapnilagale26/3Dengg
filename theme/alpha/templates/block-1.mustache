@@ -1,0 +1,40 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{#fpblock1}}
+{{#showfpblock1hr}}<hr class="hr-small" />{{/showfpblock1hr}}
+<div id="block1" class="l-container s-special-box row section-padding no-gutters justify-content-sm-center justify-content-lg-between">
+
+  {{#showfpblock1intro}}
+  <div class="s-section-desc col-sm-11 col-md-8 col-lg-5 ml-auto mr-auto mb-5 text-center">
+    {{#fpblock1title}}<h3 class="c-section-desc-heading">{{{fpblock1title}}}</h3>{{/fpblock1title}}
+    {{#fpblock1content}}<div class="c-section-desc">{{{fpblock1content}}}</div>{{/fpblock1content}}
+  </div>
+  {{/showfpblock1intro}}
+
+  <div class="col-12 row no-gutters justify-content-center p-0">
+    {{#block1}}
+    <div id="block1-{{{fpblock1no}}}" class="{{#fpblock1layout}}{{.}}{{/fpblock1layout}} py-2 pr-md-5 pl-md-3 my-3">
+      {{#image}}<img src="{{{image}}}" alt="{{fpblock1heading}}" class="c-special-box-img-icon img-fluid"/>{{/image}}
+      {{#fpblock1icon}}<div class="c-special-box-icon">{{{fpblock1icon}}}</div>{{/fpblock1icon}}
+      {{#fpblock1heading}}<h2 class="c-special-box-title">{{{fpblock1heading}}}</h2>{{/fpblock1heading}}
+      {{#fpblock1text}}<div class="c-special-box-desc">{{{fpblock1text}}}</div>{{/fpblock1text}}
+    </div>
+    {{/block1}}
+  </div>
+
+</div>
+{{/fpblock1}}

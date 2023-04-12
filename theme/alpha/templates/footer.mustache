@@ -1,0 +1,123 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    Page footer.
+}}
+
+<footer id="page-footer" class="s-footer">
+
+  <div class="c-container">
+
+        <div class="row">
+          <div class="col-12 m-b-1">
+            <span class="copy">© {{{ sitename }}}</span>{{#copyrighttext}}<span class="sep">{{{copyrighttext}}}</span>{{/copyrighttext}}
+          </div>
+
+          <div class="col-12 contact">
+              <ul class="list-inline">
+                  {{#website}}<li class="d-sm-block d-lg-inline mb-sm-3 mb-lg-0 mr-sm-0 mr-lg-4"><i class="fas fa-globe-africa"></i><a href="{{{cwebsiteurl}}}" target="_blank">{{{website}}}</a></li>{{/website}}
+                  {{#mobile}}<li class="d-sm-block d-lg-inline mb-sm-3 mb-lg-0 mr-sm-0 mr-lg-4"><i class="fas fa-mobile-alt"></i>{{{mobile}}}</li>{{/mobile}}
+                  {{#mail}}<li class="d-sm-block d-lg-inline"><i class="far fa-envelope-open"></i>{{{mail}}}</li>{{/mail}}
+              </ul>
+          </div>
+
+          {{#showsociallist}}
+          <div class="col-12 mb-1 social">
+            <ul class="list-social list-inline">
+                {{#facebook}}
+                  <li class="list-inline-item">
+                    <a href="{{{facebook}}}" target="_blank" class="facebook">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </li>
+                {{/facebook}}
+
+                {{#twitter}}
+                  <li class="list-inline-item">
+                    <a href="{{{twitter}}}" target="_blank" class="twitter">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                {{/twitter}}
+
+                {{#linkedin}}
+                  <li class="list-inline-item">
+                    <a href="{{{linkedin}}}" target="_blank" class="linkedin">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                {{/linkedin}}
+
+                {{#youtube}}
+                  <li class="list-inline-item">
+                    <a href="{{{youtube}}}" target="_blank" class="youtube">
+                      <i class="fab fa-youtube"></i>
+                    </a>
+                  </li>
+                {{/youtube}}
+
+                {{#instagram}}
+                  <li class="list-inline-item">
+                    <a href="{{{instagram}}}" target="_blank" class="instagram">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                {{/instagram}}
+
+                {{#customsocialicon}}
+                  {{{customsocialicon}}}
+                {{/customsocialicon}}
+                
+            </ul>
+          </div>
+          {{/showsociallist}}
+
+          {{#customfootertext}}
+          <div class="footer-custom-text--small col-md-11 col-lg-8 m-b-2">
+            {{{customfootertext}}}
+          </div>
+          {{/customfootertext}}
+
+        </div>
+
+        <div class="o-course-footer">
+            <div id="course-footer">{{{ output.course_footer }}}</div>
+            <div class="tool_usertours-resettourcontainer"></div>
+        </div>
+
+        <div class="o-standard-footer-html">{{{ output.standard_footer_html }}}</div>
+
+        {{# output.page_doc_link }}
+        <div class="o-page-doc-link">
+            <p class="helplink">{{{ output.page_doc_link }}}</p>
+        </div>
+        {{/ output.page_doc_link }}
+
+  </div>
+
+</footer>
+
+{{#customalert}}
+<div id="customalert" class="cookiealert c-alert alert alert-warning alert-dismissible" role="alert">
+  {{{customalertcontent}}}
+  <button id="customalertClose" type="button" class="acceptcookies c-alert-close-btn" aria-label="Close"><i class="fas fa-times" ></i></button>
+</div>
+{{/customalert}}
+
+
+<!-- END Bootstrap-Cookie-Alert -->
+{{{ output.standard_end_of_body_html }}}

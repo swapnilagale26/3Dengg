@@ -1,0 +1,145 @@
+[14-Feb-2022 06:44:16 Africa/Abidjan] Default exception handler: Access denied Debug: 
+Error code: accessdenied
+* line 498 of /lib/setuplib.php: moodle_exception thrown
+* line 8684 of /lib/adminlib.php: call to print_error()
+* line 24 of /admin/search.php: call to admin_externalpage_setup()
+
+[14-Feb-2022 06:47:18 Africa/Abidjan] Default exception handler: Access denied Debug: 
+Error code: accessdenied
+* line 498 of /lib/setuplib.php: moodle_exception thrown
+* line 8684 of /lib/adminlib.php: call to print_error()
+* line 24 of /admin/search.php: call to admin_externalpage_setup()
+
+[20-Feb-2022 17:49:53 Africa/Abidjan] instantiating backup controller 39f5bc5a53dece4c31a95eabd879446b
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller plan
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 17:49:53 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 17:49:53 Africa/Abidjan] checking plan security
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] calculating controller checksum 3f72d9a98a0fe6166dc16b2b2aa94848
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting file inclusion to 1
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] calculating controller checksum 367d29f1f3d4100ba2b349f1dda64afc
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] instantiating backup controller abf7378741aa412fb4494ae6104bd76f
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller plan
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 17:49:53 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 17:49:53 Africa/Abidjan] checking plan security
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] calculating controller checksum e92aec2cb0c1449c4bad8a5c0163f0df
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting file inclusion to 1
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] calculating controller checksum 395fbec2aecd0af7b2aefeffdeeec876
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] instantiating backup controller 4e02a6fbaa5947b3f1ec64a61a9d54d4
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller plan
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 17:49:53 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 17:49:53 Africa/Abidjan] checking plan security
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] calculating controller checksum 027f49143d385c91088deafd9377615f
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting file inclusion to 1
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:53 Africa/Abidjan] calculating controller checksum c76c70bfa8b000f29fed33cf3850c811
+[20-Feb-2022 17:49:53 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:53 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 17:49:53 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] instantiating backup controller 7fed2166d99c790e69d32aa509ff028b
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller plan
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 17:49:54 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 17:49:54 Africa/Abidjan] checking plan security
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum dc5d5f22fee98702c4583b905cd9948b
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 1
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum 86cf95e5474cd6ecacb634c8ec6f2f51
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] instantiating backup controller e98054ec22a4763c7fb43b30de93c2fc
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller plan
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 17:49:54 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 17:49:54 Africa/Abidjan] checking plan security
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum f9291dabb279b1211fa93048bc274d27
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 1
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum 8db415ce1f5697106cf773d7a03ee7e5
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] instantiating backup controller 90534e79bbe16d6640fdd5d61d0a1dee
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller plan
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 17:49:54 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 17:49:54 Africa/Abidjan] checking plan security
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum 5e3c834b29d20da1d8a1230c9f1ab847
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 1
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum 7e14f6b21e60e72da79f3f0ee45613c6
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] instantiating backup controller 35036a9a00d423e3bf5b98b2f3e43011
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller plan
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 17:49:54 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 17:49:54 Africa/Abidjan] checking plan security
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum 801e6682150a7a50799df514e94380e4
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting file inclusion to 1
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db
+[20-Feb-2022 17:49:54 Africa/Abidjan] calculating controller checksum 0fe063724447f61514847bbf35008167
+[20-Feb-2022 17:49:54 Africa/Abidjan] loading controller from db
+[20-Feb-2022 17:49:54 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 17:49:54 Africa/Abidjan] saving controller to db

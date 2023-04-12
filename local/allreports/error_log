@@ -1,0 +1,183 @@
+[22-Jan-2022 18:11:27 Africa/Abidjan] Default exception handler: Error reading from database Debug: Unknown column 'c.id' in 'where clause'
+SELECT u.id 
+            FROM mdl_course ic
+            JOIN mdl_context con ON con.instanceid = ic.id
+            JOIN mdl_role_assignments ra ON con.id = ra.contextid AND con.contextlevel = 50
+            JOIN mdl_role r ON ra.roleid = r.id
+            JOIN mdl_user u ON u.id = ra.userid
+            WHERE r.id = 3 AND ic.id = c.id
+            GROUP BY ic.id
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 62 of /local/allreports/form/batch_progress.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to local_batch_progress->definition()
+* line 39 of /local/allreports/progress.php: call to moodleform->__construct()
+
+[22-Jan-2022 18:19:03 Africa/Abidjan] Default exception handler: Exception - Cannot use object of type stdClass as array Debug: 
+Error code: generalexceptionmessage
+* line 75 of /local/allreports/form/batch_progress.php: Error thrown
+* line 214 of /lib/formslib.php: call to local_batch_progress->definition()
+* line 39 of /local/allreports/progress.php: call to moodleform->__construct()
+
+[22-Jan-2022 18:19:31 Africa/Abidjan] Default exception handler: Exception - Cannot use object of type stdClass as array Debug: 
+Error code: generalexceptionmessage
+* line 75 of /local/allreports/form/batch_progress.php: Error thrown
+* line 214 of /lib/formslib.php: call to local_batch_progress->definition()
+* line 39 of /local/allreports/progress.php: call to moodleform->__construct()
+
+[22-Jan-2022 18:19:35 Africa/Abidjan] Default exception handler: Exception - Cannot use object of type stdClass as array Debug: 
+Error code: generalexceptionmessage
+* line 75 of /local/allreports/form/batch_progress.php: Error thrown
+* line 214 of /lib/formslib.php: call to local_batch_progress->definition()
+* line 39 of /local/allreports/progress.php: call to moodleform->__construct()
+
+[15-Feb-2022 13:00:59 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM mdl_local_batch WHERE trainer1 = 59 OR trainer2 = 59}' at line 1
+SELECT * FROM {SELECT * FROM mdl_local_batch WHERE trainer1 = 59 OR trainer2 = 59}  
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1500 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1451 of /lib/dml/moodle_database.php: call to moodle_database->get_records_select()
+* line 75 of /local/allreports/trainer_utilization.php: call to moodle_database->get_records()
+
+[15-Feb-2022 13:03:17 Africa/Abidjan] Default exception handler: Field "trainer1" does not exist in table "user" Debug: 
+Error code: ddlfieldnotexist
+* line 672 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1621 of /lib/dml/moodle_database.php: call to moodle_database->where_clause()
+* line 76 of /local/allreports/trainer_utilization.php: call to moodle_database->get_record()
+
+[15-Feb-2022 13:09:57 Africa/Abidjan] Default exception handler: Field "trainer1" does not exist in table "batch_student_details" Debug: 
+Error code: ddlfieldnotexist
+* line 672 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1621 of /lib/dml/moodle_database.php: call to moodle_database->where_clause()
+* line 89 of /local/allreports/trainer_utilization.php: call to moodle_database->get_record()
+
+[18-Feb-2022 07:04:05 Africa/Abidjan] Default exception handler: Error reading from database Debug: Unknown column 'timecreated' in 'where clause'
+SELECT * FROM mdl_local_batch WHERE timecreated BETWEEN 1642464000 AND 1645142400
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 72 of /local/allreports/consolidated_report.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[18-Feb-2022 11:23:34 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'courseid
+    WHERE lb.center_name = 1 AND lb.start_date BETWEEN 1642464000 AN...' at line 2
+SELECT bsd.* FROM mdl_batch_student_details AS bsd
+    JOIN mdl_local_batch AS lb ON lb.id = bsd.batch_id courseid
+    WHERE lb.center_name = 1 AND lb.start_date BETWEEN 1642464000 AND 1645142400
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 67 of /local/allreports/consolidated_report.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[18-Feb-2022 13:41:37 Africa/Abidjan] Default exception handler: Exception - Argument 1 passed to html_writer::table() must be an instance of html_table, null given, called in [dirroot]/local/allreports/consolidated_report.php on line 263 Debug: 
+Error code: generalexceptionmessage
+* line 2116 of /lib/outputcomponents.php: TypeError thrown
+* line 263 of /local/allreports/consolidated_report.php: call to html_writer::table()
+
+[20-Feb-2022 06:30:12 Africa/Abidjan] Default exception handler: Error reading from database Debug: Table 'u405580447_ventura.prefix_course' doesn't exist
+SELECT 
+	u.username, 
+	c.shortname AS 'Course',
+	ROUND(gg.finalgrade,2) AS 'Grade',
+	DATE_FORMAT(FROM_UNIXTIME(gg.timemodified), '%Y-%m-%d') AS 'Date'
+
+	FROM prefix_course AS c
+	JOIN prefix_context AS ctx ON c.id = ctx.instanceid
+	JOIN prefix_role_assignments AS ra ON ra.contextid = ctx.id
+	JOIN prefix_user AS u ON u.id = ra.userid
+	JOIN prefix_grade_grades AS gg ON gg.userid = u.id
+	JOIN prefix_grade_items AS gi ON gi.id = gg.itemid
+	WHERE gi.courseid = c.id 
+	AND gi.itemtype = 'course'
+	AND ra.roleid = 5
+	ORDER BY u.username, c.shortname
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 81 of /local/allreports/participant_performance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[20-Feb-2022 06:31:06 Africa/Abidjan] Default exception handler: Error reading from database Debug: Table 'u405580447_ventura.prefix_course' doesn't exist
+SELECT 
+	u.username, 
+	c.shortname AS 'Course',
+	ROUND(gg.finalgrade,2) AS 'Grade',
+	DATE_FORMAT(FROM_UNIXTIME(gg.timemodified), '%Y-%m-%d') AS 'Date'
+
+	FROM prefix_course AS c
+	JOIN prefix_context AS ctx ON c.id = ctx.instanceid
+	JOIN prefix_role_assignments AS ra ON ra.contextid = ctx.id
+	JOIN prefix_user AS u ON u.id = ra.userid
+	JOIN prefix_grade_grades AS gg ON gg.userid = u.id
+	JOIN prefix_grade_items AS gi ON gi.id = gg.itemid
+	WHERE gi.courseid = c.id 
+	AND gi.itemtype = 'course'
+	AND ra.roleid = 5
+	ORDER BY u.username, c.shortname
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 81 of /local/allreports/participant_performance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[20-Feb-2022 06:45:35 Africa/Abidjan] Default exception handler: Your session has most likely timed out. Please log in again. Debug: 
+Error code: invalidsesskey
+* line 498 of /lib/setuplib.php: moodle_exception thrown
+* line 315 of /lib/formslib.php: call to print_error()
+* line 228 of /lib/formslib.php: call to moodleform->_process_submission()
+* line 52 of /local/allreports/participant_performance.php: call to moodleform->__construct()
+
+[20-Feb-2022 06:57:27 Africa/Abidjan] Default exception handler: Your session has most likely timed out. Please log in again. Debug: 
+Error code: invalidsesskey
+* line 498 of /lib/setuplib.php: moodle_exception thrown
+* line 315 of /lib/formslib.php: call to print_error()
+* line 228 of /lib/formslib.php: call to moodleform->_process_submission()
+* line 52 of /local/allreports/participant_performance.php: call to moodleform->__construct()
+
+[20-Feb-2022 14:48:20 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'trainer = 0' at line 1
+SELECT * FROM mdl_local_batch WHERE start_date BETWEEN 1642636800 AND 1645315200 AND center_name = 1AND trainer = 0
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 78 of /local/allreports/trainer_attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[20-Feb-2022 14:49:06 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'trainer1 = 0 OR trainer2 = 0' at line 1
+SELECT * FROM mdl_local_batch WHERE start_date BETWEEN 1642636800 AND 1645315200 AND center_name = 1AND trainer1 = 0 OR trainer2 = 0
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 78 of /local/allreports/trainer_attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[20-Feb-2022 14:56:15 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'trainer1 = 58 OR trainer2 = 58' at line 1
+SELECT * FROM mdl_local_batch WHERE start_date BETWEEN 1642636800 AND 1645315200 AND center_name = 9AND trainer1 = 58 OR trainer2 = 58
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 81 of /local/allreports/trainer_attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[01-Mar-2022 17:42:16 Africa/Abidjan] Default exception handler: Error reading from database Debug: Unknown column 'trainer' in 'where clause'
+SELECT * FROM mdl_local_batch WHERE start_date BETWEEN 1640995200 AND 1646092800 AND center_name = 1 AND trainer1 = 68 OR trainer2 = 68 OR trainer = 68
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 79 of /local/allreports/trainer_attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+

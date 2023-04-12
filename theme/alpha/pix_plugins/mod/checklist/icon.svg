@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="icon" fill="#F2FFEE" fill-rule="nonzero">
+                <rect id="Rectangle" x="0" y="0" width="50" height="50" rx="5"></rect>
+            </g>
+            <g id="checkmark-done-outline" transform="translate(12.000000, 17.000000)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                <polyline id="Shape" stroke="#23A767" points="25.6 0 11.8153846 15.7538462 5.90769231 9.84615385"></polyline>
+                <line x1="5.90769231" y1="15.7538462" x2="0" y2="9.84615385" id="Path" stroke="#77D2A6"></line>
+                <line x1="19.6923077" y1="0" x2="11.3230769" y2="9.6" id="Path" stroke="#77D2A6"></line>
+            </g>
+        </g>
+    </g>
+</svg>

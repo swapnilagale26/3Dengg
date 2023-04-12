@@ -1,0 +1,142 @@
+[10-Feb-2022 18:01:22 Africa/Abidjan] Default exception handler: Field "userid" does not exist in table "local_batch" Debug: 
+Error code: ddlfieldnotexist
+* line 672 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1621 of /lib/dml/moodle_database.php: call to moodle_database->where_clause()
+* line 35 of /local/attendance/form/attendance_form.php: call to moodle_database->get_record()
+* line 214 of /lib/formslib.php: call to local_attendance->definition()
+* line 38 of /local/attendance/index.php: call to moodleform->__construct()
+
+[10-Feb-2022 18:01:59 Africa/Abidjan] Default exception handler: Field "userid" does not exist in table "local_batch" Debug: 
+Error code: ddlfieldnotexist
+* line 672 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1621 of /lib/dml/moodle_database.php: call to moodle_database->where_clause()
+* line 35 of /local/attendance/form/attendance_form.php: call to moodle_database->get_record()
+* line 214 of /lib/formslib.php: call to local_attendance->definition()
+* line 38 of /local/attendance/index.php: call to moodleform->__construct()
+
+[10-Feb-2022 18:02:07 Africa/Abidjan] Default exception handler: Field "userid" does not exist in table "local_batch" Debug: 
+Error code: ddlfieldnotexist
+* line 672 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1621 of /lib/dml/moodle_database.php: call to moodle_database->where_clause()
+* line 35 of /local/attendance/form/attendance_form.php: call to moodle_database->get_record()
+* line 214 of /lib/formslib.php: call to local_attendance->definition()
+* line 38 of /local/attendance/index.php: call to moodleform->__construct()
+
+[10-Feb-2022 18:04:08 Africa/Abidjan] Default exception handler: Exception - Call to undefined function expload() Debug: 
+Error code: generalexceptionmessage
+* line 39 of /local/attendance/form/attendance_form.php: Error thrown
+* line 214 of /lib/formslib.php: call to local_attendance->definition()
+* line 38 of /local/attendance/index.php: call to moodleform->__construct()
+
+[11-Feb-2022 05:09:58 Africa/Abidjan] Default exception handler: Coding error detected, it must be fixed by a programmer: insert_records() passed non-traversable object Debug: 
+Error code: codingerror
+* line 1426 of /lib/dml/mysqli_native_moodle_database.php: coding_exception thrown
+* line 63 of /local/attendance/index.php: call to mysqli_native_moodle_database->insert_records()
+
+[14-Feb-2022 06:24:39 Africa/Abidjan] Default exception handler: Exception - Class 'select_batch' not found Debug: 
+Error code: generalexceptionmessage
+* line 48 of /local/attendance/index.php: Error thrown
+
+[14-Feb-2022 06:26:17 Africa/Abidjan] Default exception handler: Coding error detected, it must be fixed by a programmer: Invalid database query parameter value Debug: Objects are are not allowed: stdClass
+Error code: codingerror
+* line 875 of /lib/dml/moodle_database.php: coding_exception thrown
+* line 897 of /lib/dml/moodle_database.php: call to moodle_database->detect_objects()
+* line 1268 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->fix_sql_params()
+* line 1671 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1643 of /lib/dml/moodle_database.php: call to moodle_database->get_record_sql()
+* line 1622 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 34 of /local/attendance/form/batch_form.php: call to moodle_database->get_record()
+* line 214 of /lib/formslib.php: call to select_batch->definition()
+* line 48 of /local/attendance/index.php: call to moodleform->__construct()
+
+[14-Feb-2022 11:28:00 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mdl_batch_student_details WHERE extra2 =14-02-2022 AND extra3 = 13' at line 1
+SELECT * mdl_batch_student_details WHERE extra2 =14-02-2022 AND extra3 = 13
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 48 of /local/attendance/attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[14-Feb-2022 11:28:35 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mdl_batch_student_details WHERE extra2 =14-02-2022 AND extra3 = 13' at line 1
+SELECT * mdl_batch_student_details WHERE extra2 =14-02-2022 AND extra3 = 13
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 48 of /local/attendance/attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[14-Feb-2022 11:33:08 Africa/Abidjan] Default exception handler: Exception - Modulo by zero Debug: 
+Error code: generalexceptionmessage
+* line 47 of /local/attendance/attendance.php: DivisionByZeroError thrown
+
+[14-Feb-2022 11:34:31 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mdl_batch_student_details 
+    WHERE extra2 LIKE "%$todaydate%"' at line 1
+SELECT * mdl_batch_student_details 
+    WHERE extra2 LIKE "%$todaydate%"
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 49 of /local/attendance/attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[14-Feb-2022 11:47:07 Africa/Abidjan] Default exception handler: Error reading from database Debug: Unknown column 'extra2' in 'where clause'
+SELECT *
+            FROM mdl_batch_student_details
+            WHERE extra2 LIKE '%14-02-2022%'
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1671 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 50 of /local/attendance/attendance.php: call to moodle_database->get_record_sql()
+
+[14-Feb-2022 11:50:34 Africa/Abidjan] Default exception handler: Error reading from database Debug: 
+
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 51 of /local/attendance/attendance.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[24-Feb-2022 09:40:43 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND trainer1 = 68 OR trainer2 = 68' at line 1
+SELECT * FROM mdl_local_batch WHERE center_name =  AND trainer1 = 68 OR trainer2 = 68
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 52 of /local/attendance/form/batch_form.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to select_batch->definition()
+* line 39 of /local/attendance/index.php: call to moodleform->__construct()
+
+[24-Feb-2022 09:40:44 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND trainer1 = 68 OR trainer2 = 68' at line 1
+SELECT * FROM mdl_local_batch WHERE center_name =  AND trainer1 = 68 OR trainer2 = 68
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 52 of /local/attendance/form/batch_form.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to select_batch->definition()
+* line 39 of /local/attendance/index.php: call to moodleform->__construct()
+
+[24-Feb-2022 09:44:28 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND trainer1 = 68 OR trainer2 = 68' at line 1
+SELECT * FROM mdl_local_batch WHERE center_name =  AND trainer1 = 68 OR trainer2 = 68
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 52 of /local/attendance/form/batch_form.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to select_batch->definition()
+* line 39 of /local/attendance/index.php: call to moodleform->__construct()
+
+[24-Feb-2022 09:49:59 Africa/Abidjan] Default exception handler: Exception - syntax error, unexpected 'if' (T_IF), expecting variable (T_VARIABLE) or '{' or '$' Debug: 
+Error code: generalexceptionmessage
+* line 74 of /local/attendance/form/attendance_form.php: ParseError thrown
+

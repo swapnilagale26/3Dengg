@@ -1,0 +1,143 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  //The first argument are the elements to which the plugin shall be initialized
+  //The second argument has to be at least a empty object or a object with your desired options
+  OverlayScrollbars(document.querySelectorAll("#nav-drawer"),
+  {scrollbars :
+      {
+        visibility       : "auto",
+        autoHide         : "l",
+        autoHideDelay    : 800,
+        dragScrolling    : true,
+        clickScrolling   : false,
+        touchSupport     : true
+      }
+  });
+  OverlayScrollbars(document.querySelectorAll('.region-main-settings-menu .dropdown-menu, .c-course-box .course-box-desc, .conversation-cotnent-container, .course-contacts-ext-content'),
+  {scrollbars :
+      {
+        visibility       : "auto",
+        autoHide         : "never",
+        autoHideDelay    : 800,
+        dragScrolling    : true,
+        clickScrolling   : false,
+        touchSupport     : true
+      }
+  });
+
+});</script>
+
+{{#js}}
+require(['jquery'], function($) {
+
+  var searchbar = $("#searchField"),
+      searchbox = $(".search-box"),
+      searchbarToggle = $("#searchBtn"),
+      searchbarClose = $("#searchBtnClose");
+
+  searchbarToggle.on("click", function(e) {
+     e.preventDefault();
+     searchbar.toggleClass("show");
+     searchbox.toggleClass("active");
+  });
+
+  searchbarClose.on("click", function(e) {
+     searchbar.removeClass("show");
+     searchbox.removeClass("active");
+  });
+
+  var mobileTopBar = $(".s-top"),
+      mobileTopBarToggle = $("#mobileTopBarBtn, #mobileTopBarCloseBtn");
+
+  mobileTopBarToggle.on("click", function(e) {
+     e.preventDefault();
+     mobileTopBar.toggleClass("show");
+     mobileTopBarToggle.toggleClass("hidden");
+  });
+
+
+  /*
+   * Bootstrap Cookie Alert by Wruczek
+   * https://github.com/Wruczek/Bootstrap-Cookie-Alert
+   * Released under MIT license
+   */
+  (function () {
+      "use strict";
+
+      var customalert = document.querySelector("#customalert");
+      var closecustomalert = document.querySelector("#customalertClose");
+
+      if (!customalert) {
+         return;
+      }
+
+      customalert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+
+      // Show the alert if we cant find the "closecustomalert" cookie
+      if (!getCookie("closecustomalert")) {
+          customalert.classList.add("show");
+      }
+
+      // When clicking on the agree button, create a 1 year
+      // cookie to remember user's choice and close the banner
+      closecustomalert.addEventListener("click", function () {
+          setCookie("closecustomalert", true, 1);
+          customalert.classList.remove("show");
+      });
+
+      // Cookie functions from w3schools
+      function setCookie(cname, cvalue, exdays) {
+          var d = new Date();
+          d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+          var expires = "expires=" + d.toUTCString();
+          document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+      }
+
+      function getCookie(cname) {
+          var name = cname + "=";
+          var decodedCookie = decodeURIComponent(document.cookie);
+          var ca = decodedCookie.split(';');
+          for (var i = 0; i < ca.length; i++) {
+              var c = ca[i];
+              while (c.charAt(0) === ' ') {
+                  c = c.substring(1);
+              }
+              if (c.indexOf(name) === 0) {
+                  return c.substring(name.length, c.length);
+              }
+          }
+          return "";
+      }
+  })();
+});
+{{/js}}
+
+<script>
+var navbar = document.getElementById("navBar");
+var sticky = navbar.offsetTop;
+var stickysettingbtn = document.getElementById("settingsMenu");
+
+function stickyNavF() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky-nav");
+    if(stickysettingbtn != null) { stickysettingbtn.classList.add("sticky"); }
+  } else {
+    navbar.classList.remove("sticky-nav");
+    if(stickysettingbtn != null) { stickysettingbtn.classList.remove("sticky"); }
+  }
+}
+window.onscroll = function() {stickyNavF()};
+</script>
+
+{{#herovideoenabled}}
+<script src="{{siteurl}}/theme/alpha/addons/vidbg/vidbg.js"></script>
+<script>
+var instance = new vidbg('.c-hero-container--video', {
+  mp4: '{{{ herovideomp4 }}}',
+  webm: '{{{ herovideowebm }}}',
+  poster: '{{{ herovideoimg }}}',
+})
+</script>
+{{/herovideoenabled}}
+
+<script src="{{siteurl}}/theme/alpha/addons/bootstrapnavbar/bootstrap-4-navbar.min.js"></script>

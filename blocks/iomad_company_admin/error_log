@@ -1,0 +1,72 @@
+[20-Dec-2021 16:58:33 Africa/Abidjan] Default exception handler: The Iomad administrator has not given you permission to do this. Debug: 
+Error code: nopermissions
+* line 1693 of /local/iomad/lib/iomad.php: required_capability_exception thrown
+* line 38 of /blocks/iomad_company_admin/company_course_create_form.php: call to iomad::require_capability()
+
+[17-Jan-2022 14:02:11 Africa/Abidjan] Default exception handler: Error writing to database Debug: Column 'departmentid' cannot be null
+INSERT INTO mdl_company_users (companyid,userid,departmentid,educator,managertype) VALUES(?,?,?,?,?)
+[array (
+  0 => 5,
+  1 => 19,
+  2 => NULL,
+  3 => 1,
+  4 => '1',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1357 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1403 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 1018 of /local/iomad/lib/company.php: call to mysqli_native_moodle_database->insert_record()
+* line 119 of /blocks/iomad_company_admin/company_user_create_form.php: call to company::upsert_company_user()
+
+[17-Jan-2022 14:23:09 Africa/Abidjan] Default exception handler: Error writing to database Debug: Column 'uselogo' cannot be null
+UPDATE mdl_companycertificate SET companyid = ?,uselogo = ?,usewatermark = ?,usesignature = ?,useborder = ?,showgrade = ? WHERE id=?
+[array (
+  0 => '5',
+  1 => NULL,
+  2 => NULL,
+  3 => NULL,
+  4 => NULL,
+  5 => NULL,
+  6 => '5',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 453 of /blocks/iomad_company_admin/company_edit_form.php: call to mysqli_native_moodle_database->update_record()
+
+[17-Jan-2022 14:27:13 Africa/Abidjan] Default exception handler: Error writing to database Debug: Column 'usewatermark' cannot be null
+UPDATE mdl_companycertificate SET companyid = ?,uselogo = ?,usewatermark = ?,usesignature = ?,useborder = ?,showgrade = ? WHERE id=?
+[array (
+  0 => '5',
+  1 => '1',
+  2 => NULL,
+  3 => NULL,
+  4 => NULL,
+  5 => NULL,
+  6 => '5',
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 453 of /blocks/iomad_company_admin/company_edit_form.php: call to mysqli_native_moodle_database->update_record()
+
+[28-Jan-2022 10:36:14 Africa/Abidjan] Database transaction aborted automatically in /home/u405580447/domains/furxotic.in/public_html/blocks/iomad_company_admin/iomad_courses_form.php
+[28-Jan-2022 10:37:18 Africa/Abidjan] Database transaction aborted automatically in /home/u405580447/domains/furxotic.in/public_html/blocks/iomad_company_admin/iomad_courses_form.php
+[28-Jan-2022 10:38:47 Africa/Abidjan] Database transaction aborted automatically in /home/u405580447/domains/furxotic.in/public_html/blocks/iomad_company_admin/iomad_courses_form.php
+[28-Jan-2022 10:40:42 Africa/Abidjan] Database transaction aborted automatically in /home/u405580447/domains/furxotic.in/public_html/blocks/iomad_company_admin/iomad_courses_form.php
+[28-Jan-2022 10:41:09 Africa/Abidjan] Database transaction aborted automatically in /home/u405580447/domains/furxotic.in/public_html/blocks/iomad_company_admin/iomad_courses_form.php
+[28-Jan-2022 17:23:10 Africa/Abidjan] Default exception handler: Coding error detected, it must be fixed by a programmer: Invalid call to role_unassign(), please use role_unassign_all() when removing multiple role assignments Debug: 
+Error code: codingerror
+* line 1654 of /lib/accesslib.php: coding_exception thrown
+* line 213 of /local/iomad/lib/user.php: call to role_unassign()
+* line 334 of /blocks/iomad_company_admin/editusers.php: call to company_user::delete()
+
+[28-Jan-2022 17:26:48 Africa/Abidjan] Default exception handler: Exception - Argument 1 passed to role_unassign_all() must be of the type array, null given, called in [dirroot]/local/iomad/lib/user.php on line 214 Debug: 
+Error code: generalexceptionmessage
+* line 1680 of /lib/accesslib.php: TypeError thrown
+* line 214 of /local/iomad/lib/user.php: call to role_unassign_all()
+* line 334 of /blocks/iomad_company_admin/editusers.php: call to company_user::delete()
+

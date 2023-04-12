@@ -1,0 +1,43 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{#fpcustomcategoryblock}}
+{{#showfpblock5hr}}<hr class="hr-small" />{{/showfpblock5hr}}
+
+<div id="block5" class="l-container s-courses-list s-special-box row no-gutters section-padding justify-content-sm-center justify-content-lg-between">
+
+  {{#showfpcustomcategoryintro}}
+  <div class="s-section-desc col-sm-11 col-md-8 col-lg-5 ml-auto mr-auto mb-5 text-center">
+    {{#fpcustomcategorytitle}}<h3 class="c-section-desc-heading">{{{fpcustomcategorytitle}}}</h3>{{/fpcustomcategorytitle}}
+    {{#fpcustomcategorycontent}}<div class="c-section-desc">{{{fpcustomcategorycontent}}}</div>{{/fpcustomcategorycontent}}
+  </div>
+  {{/showfpcustomcategoryintro}}
+
+  <div class="col-12 row no-gutters justify-content-between p-0">
+
+    <div class="col-sm-12 col-md-3 text-left mt-0">
+      {{{fpcustomcategoryblockhtml1}}}
+    </div>
+    <div class="col-sm-12 col-md-3 text-left mt-sm-5 mt-md-0">
+      {{{fpcustomcategoryblockhtml2}}}
+    </div>
+    <div class="col-sm-12 col-md-3 text-left mt-sm-5 mt-md-0">
+      {{{fpcustomcategoryblockhtml3}}}
+    </div>
+
+  </div>
+</div>
+{{/fpcustomcategoryblock}}

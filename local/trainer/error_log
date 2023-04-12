@@ -1,0 +1,70 @@
+[20-Jan-2022 17:03:10 Africa/Abidjan] Default exception handler: Field "user" does not exist in table "trainer_module" Debug: 
+Error code: ddlfieldnotexist
+* line 672 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1703 of /lib/dml/moodle_database.php: call to moodle_database->where_clause()
+* line 57 of /local/trainer/create_trainer.php: call to moodle_database->get_field()
+
+[20-Jan-2022 17:03:43 Africa/Abidjan] Default exception handler: Exception - Argument 1 passed to enrol_plugin::enrol_user() must be an instance of stdClass, bool given, called in [dirroot]/local/trainer/lib.php on line 44 Debug: 
+Error code: generalexceptionmessage
+* line 2035 of /lib/enrollib.php: TypeError thrown
+* line 44 of /local/trainer/lib.php: call to enrol_plugin->enrol_user()
+* line 68 of /local/trainer/create_trainer.php: call to enrollment_enrol_user()
+
+[20-Jan-2022 17:21:33 Africa/Abidjan] Default exception handler: Table "center" does not exist Debug: 
+Error code: ddltablenotexist
+* line 665 of /lib/dml/moodle_database.php: dml_exception thrown
+* line 1703 of /lib/dml/moodle_database.php: call to moodle_database->where_clause()
+* line 61 of /local/trainer/index.php: call to moodle_database->get_field()
+
+[16-Feb-2022 03:27:38 Africa/Abidjan] Default exception handler: Error writing to database Debug: Duplicate entry '1-ganeshk@example.com' for key 'mdl_user_mneuse_uix'
+UPDATE mdl_user SET username = ?,firstname = ?,lastname = ?,email = ?,phone1 = ?,timemodified = ? WHERE id=?
+[array (
+  0 => 'ganeshk@example.com',
+  1 => 'Ganesh',
+  2 => ' K',
+  3 => 'ganeshk@example.com',
+  4 => '9538418302',
+  5 => 1644982058,
+  6 => 14,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 193 of /user/lib.php: call to mysqli_native_moodle_database->update_record()
+* line 75 of /local/trainer/create_trainer.php: call to user_update_user()
+
+[16-Feb-2022 03:31:08 Africa/Abidjan] Default exception handler: Error writing to database Debug: Duplicate entry '1-ganeshk@example.com' for key 'mdl_user_mneuse_uix'
+UPDATE mdl_user SET username = ?,email = ?,firstname = ?,lastname = ?,phone1 = ?,timemodified = ? WHERE id=?
+[array (
+  0 => 'ganeshk@example.com',
+  1 => 'ganeshk@example.com',
+  2 => 'Ganesh',
+  3 => ' K',
+  4 => '9538418302',
+  5 => 1644982268,
+  6 => 14,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 193 of /user/lib.php: call to mysqli_native_moodle_database->update_record()
+* line 78 of /local/trainer/create_trainer.php: call to user_update_user()
+
+[16-Feb-2022 03:32:04 Africa/Abidjan] Default exception handler: Error writing to database Debug: Duplicate entry '1-ganeshk@example.com' for key 'mdl_user_mneuse_uix'
+UPDATE mdl_user SET username = ?,email = ?,firstname = ?,lastname = ?,phone1 = ? WHERE id=?
+[array (
+  0 => 'ganeshk@example.com',
+  1 => 'ganeshk@example.com',
+  2 => 'Ganesh',
+  3 => ' K',
+  4 => '9538418302',
+  5 => 14,
+)]
+Error code: dmlwriteexception
+* line 489 of /lib/dml/moodle_database.php: dml_write_exception thrown
+* line 1587 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1619 of /lib/dml/mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->update_record_raw()
+* line 78 of /local/trainer/create_trainer.php: call to mysqli_native_moodle_database->update_record()
+

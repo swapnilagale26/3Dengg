@@ -1,0 +1,117 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    secure navbar.
+}}
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    Page navbar.
+}}
+
+
+
+<div class="s-top-mobile d-sm-inline-flex d-lg-none align-items-center">
+
+      <div class="d-sm-inline d-lg-none">
+          <button type="button" class="sidebar-btn ml-1" aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"></button>
+      </div>
+
+      <div class="c-logo mx-auto">
+        <a href="{{#customrooturl}}{{customrooturl}}{{/customrooturl}}{{^customrooturl}}{{{ config.wwwroot }}}{{/customrooturl}}" class="navbar-brand {{#customlogotopbar}}has-logo{{/customlogotopbar}}{{# output.should_display_navbar_logo }} has-logo{{/ output.should_display_navbar_logo }}{{^ output.should_display_navbar_logo }}d-none d-sm-inline{{/ output.should_display_navbar_logo }}">
+            {{^ customlogotopbar}}
+              {{# output.should_display_navbar_logo }}
+                  <h1 class="logo d-flex m-0 text-center">
+                      <img src="{{output.get_compact_logo_url}}" alt="{{sitename}}" title="{{sitename}}" class="img-fluid ml-auto mr-auto" />
+                  </h1>
+              {{/ output.should_display_navbar_logo }}
+            {{/ customlogotopbar}}
+
+            {{#customlogotopbar}}
+            <h1 class="logo d-flex m-0 text-center">
+                <img src="{{{customlogotopbar}}}" alt="{{sitename}}" title="{{sitename}}" class="img-fluid ml-auto mr-auto" />
+            </h1>
+            {{/customlogotopbar}}
+
+            <h1 class="{{#customlogotopbar}}hidden{{/customlogotopbar}}{{^customlogotopbar}}{{# output.should_display_navbar_logo }}hidden{{/ output.should_display_navbar_logo }}{{/customlogotopbar}} site-name">{{{ sitename }}}</h1>
+
+        </a>
+      </div>
+
+      <button type="button" class="mobile-topbar-btn">
+        <i class="far fa-user-circle" id="mobileTopBarBtn"></i>
+        <i class="fas fa-times hidden" id="mobileTopBarCloseBtn"></i>
+      </button>
+
+</div>
+
+<div id="navBar" class="s-top {{^hiddensidebar}}s-top--sidebar{{/hiddensidebar}} justify-content-center">
+
+  <div class="c-top-container row no-gutters justify-content-start align-items-center pl-lg-1 pr-0">
+
+    <div class="col row no-gutters justify-content-start align-items-center">
+
+      <div class="c-logo">
+        <a href="{{#customrooturl}}{{customrooturl}}{{/customrooturl}}{{^customrooturl}}{{{ config.wwwroot }}}{{/customrooturl}}" class="navbar-brand {{#customlogotopbar}}has-logo{{/customlogotopbar}}{{# output.should_display_navbar_logo }} has-logo{{/ output.should_display_navbar_logo }}{{^ output.should_display_navbar_logo }}d-none d-sm-inline{{/ output.should_display_navbar_logo }}">
+            {{^ customlogotopbar}}
+              {{# output.should_display_navbar_logo }}
+                  <h1 class="logo d-flex m-0 text-center d-sm-none d-lg-inline">
+                      <img src="{{output.get_compact_logo_url}}" alt="{{sitename}}" title="{{sitename}}" class="img-fluid ml-auto mr-auto" />
+                  </h1>
+              {{/ output.should_display_navbar_logo }}
+            {{/ customlogotopbar}}
+
+            {{#customlogotopbar}}
+            <h1 class="logo d-flex m-0 text-center d-sm-none d-lg-inline">
+                <img src="{{{customlogotopbar}}}" alt="{{sitename}}" title="{{sitename}}" class="img-fluid ml-auto mr-auto" />
+            </h1>
+            {{/customlogotopbar}}
+
+            <h1 class="{{#customlogotopbar}}hidden{{/customlogotopbar}}{{^customlogotopbar}}{{# output.should_display_navbar_logo }}hidden{{/ output.should_display_navbar_logo }}{{/customlogotopbar}} site-name">{{{ sitename }}}</h1>
+
+        </a>
+      </div>
+    </div>
+
+    <div class="nav d-sm-flex d-lg-inline-flex row no-gutters ml-sm-center ml-lg-auto align-items-center">
+
+
+        <!-- user_menu -->
+        <div class="c-user-menu d-inline-flex ml-auto mr-sm-2 mr-lg-0">
+            <div class="badge badge-info mr-3 my-0">{{{ output.secure_login_info }}}</div>
+        </div>
+
+    </div>
+
+  </div>
+
+
+</div>

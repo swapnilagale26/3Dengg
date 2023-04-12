@@ -1,0 +1,41 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+
+{{#fpblock2}}
+{{#showfpblock2hr}}<hr class="hr-small" />{{/showfpblock2hr}}
+<div id="block2" class="l-container s-special-box section-padding-3 row no-gutters justify-content-sm-center justify-content-lg-between">
+
+  {{#showfpblock2intro}}
+  <div class="s-section-desc col-sm-11 col-md-8 col-lg-5 ml-auto mr-auto mb-5 text-center">
+    {{#fpblock2title}}<h3 class="c-section-desc-heading">{{{fpblock2title}}}</h3>{{/fpblock2title}}
+    {{#fpblock2content}}<div class="c-section-desc">{{{fpblock2content}}}</div>{{/fpblock2content}}
+  </div>
+  {{/showfpblock2intro}}
+
+  <div class="col-12 row no-gutters justify-content-between p-0">
+    {{#block2}}
+    <div id="block2-{{{fpblock2no}}}" class="{{#fpblock2layout}}{{.}}{{/fpblock2layout}} my-5">
+      {{#fpblock2url}}<a href="{{{fpblock2url}}}" class="block-2-img">{{/fpblock2url}}{{#image}}<img src="{{{image}}}" alt="{{{fpblock2heading}}}" class="img-fluid"/>{{/image}}{{#fpblock2url}}</a>{{/fpblock2url}}
+      {{#fpblock2heading}}<h4 class="c-special-box-title c-special-box-title-lg">{{#fpblock2url}}<a href="{{{fpblock2url}}}">{{/fpblock2url}}{{{fpblock2heading}}}{{#fpblock2url}}</a>{{/fpblock2url}}</h4>{{/fpblock2heading}}
+      {{#fpblock2text}}<div class="c-special-box-desc">{{{fpblock2text}}}</div>{{/fpblock2text}}
+      {{#fpblock2url}}<a href="{{{fpblock2url}}}" class="btn btn-smpl">{{{fpblock2label}}}</a>{{/fpblock2url}}
+    </div>
+    {{/block2}}
+  </div>
+
+</div>
+{{/fpblock2}}

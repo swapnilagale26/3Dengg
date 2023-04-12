@@ -1,0 +1,72 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{#fpteam}}
+{{#showfpblock7hr}}<hr class="hr-small" />{{/showfpblock7hr}}
+
+<div id="block7" class="s-special-box s-team row no-gutters">
+  <div class="l-container row section-padding-2 no-gutters text-center justify-content-center">
+
+    <div class="s-section-desc col-sm-11 col-md-8 col-lg-5 ml-auto mr-auto mb-5 text-center">
+      {{#fpteamtitle}}<h3 class="c-section-desc-heading">{{{fpteamtitle}}}</h3>{{/fpteamtitle}}
+      {{#fpteamcontent}}<div class="c-section-desc">{{{fpteamcontent}}}</div>{{/fpteamcontent}}
+    </div>
+
+    <div class="c-team p-0 my-slider2">
+
+      {{#team}}
+      <div class="text-left">
+
+
+        <figure class="c-team-member-box mb-0">
+          {{#teamurl}}<a href="{{{teamurl}}}" class="c-team-url"><svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" fill-rule="evenodd"><rect fill="#000" fill-opacity=".403" height="30" rx="5" width="30"/><path d="M20.71 18.047h1.006c.426 0 .77-.345.768-.768l.002-8.81c0-.426-.345-.77-.768-.768h-8.814c-.426 0-.77.345-.768.768v1.006a.77.77 0 0 0 .787.768l5.334-.13-6.515 6.515a.77.77 0 0 0 0 1.088l.725.725a.77.77 0 0 0 1.088 0l6.515-6.515-.13 5.334c-.01.433.335.79.768.787z" fill="#fff" fill-rule="nonzero"/></svg></a>{{/teamurl}}
+          {{#teamname}}<h4 class="c-team-title">{{{teamname}}}</h4>{{/teamname}}
+          {{#teamtext}}<div class="c-team-desc">{{{teamtext}}}</div>{{/teamtext}}
+          {{#teamcustomtext}}<div class="c-team-social-icons">{{{teamcustomtext}}}</div>{{/teamcustomtext}}
+          {{#image}}<img src="{{{image}}}" alt="{{{teamname}}}" class="c-team-img"/>{{/image}}
+        </figure>
+
+
+      </div>
+      {{/team}}
+
+    </div>
+
+  </div>
+</div>
+{{/fpteam}}
+
+<script>
+var slider2 = tns({
+  container: '.my-slider2',
+  items: 1,
+  slideBy: 1,
+  mouseDrag: true,
+  gutter: 20,
+  controlsText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+  loop: false,
+  responsive: {
+    768: {
+      items: 2,
+      slideBy: 2,
+    },
+    1100: {
+      items: {{teammemberno}},
+      slideBy: {{teammemberno}},
+    }
+  }
+});
+</script>

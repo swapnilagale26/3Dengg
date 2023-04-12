@@ -1,0 +1,20 @@
+{{#children}}
+        {{^divider}}
+            {{#url}}
+                  <a href="{{{url}}}" title="{{{title}}}">{{{text}}}</a>
+                  {{#haschildren}}
+                  <div class="sub-nav">
+                      {{> theme_alpha/custom_menu }}
+                  </div>
+                  {{/haschildren}}
+            {{/url}}
+            {{^url}}
+                  {{{text}}}
+                  {{#haschildren}}
+                  <div class="sub-nav">
+                      {{> theme_alpha/custom_menu }}
+                  </div>
+                  {{/haschildren}}
+            {{/url}}
+        {{/divider}}
+{{/children}}

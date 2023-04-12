@@ -1,0 +1,293 @@
+[07-Feb-2022 15:35:40 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.u from mdl_user AS u JOIN mdl_role_assignments AS ra ON ra.userid = u.id WHE...' at line 1
+SELECT *.u from mdl_user AS u JOIN mdl_role_assignments AS ra ON ra.userid = u.id WHERE ra.roleid = 16
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 162 of /local/batch/form/batch_form.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to local_batch_form->definition()
+* line 51 of /local/batch/create_batch.php: call to moodleform->__construct()
+
+[08-Feb-2022 06:27:30 Africa/Abidjan] Default exception handler: Can't find data record in database table cohort. Debug: SELECT * FROM {cohort} WHERE id = ?
+[array (
+  0 => false,
+)]
+Error code: invalidrecord
+* line 1646 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1622 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 63 of /local/batch/form/batch_form.php: call to moodle_database->get_record()
+* line 214 of /lib/formslib.php: call to local_batch_form->definition()
+* line 51 of /local/batch/create_batch.php: call to moodleform->__construct()
+
+[08-Feb-2022 10:39:41 Africa/Abidjan] Default exception handler: Exception - Too few arguments to function moodle_database::get_field(), 2 passed in [dirroot]/local/batch/lib.php on line 105 and at least 3 expected Debug: 
+Error code: generalexceptionmessage
+* line 1702 of /lib/dml/moodle_database.php: ArgumentCountError thrown
+* line 105 of /local/batch/lib.php: call to moodle_database->get_field()
+* line 54 of /local/batch/index.php: call to create_batch_table()
+
+[08-Feb-2022 10:40:02 Africa/Abidjan] Default exception handler: Error reading from database Debug: Unknown column 'name' in 'field list'
+SELECT name FROM mdl_course WHERE id IS NULL
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1671 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1744 of /lib/dml/moodle_database.php: call to moodle_database->get_record_sql()
+* line 1725 of /lib/dml/moodle_database.php: call to moodle_database->get_field_sql()
+* line 1704 of /lib/dml/moodle_database.php: call to moodle_database->get_field_select()
+* line 105 of /local/batch/lib.php: call to moodle_database->get_field()
+* line 54 of /local/batch/index.php: call to create_batch_table()
+
+[08-Feb-2022 10:49:37 Africa/Abidjan] Default exception handler: Exception - Call to undefined function list_studentbatch_datas() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /local/batch/student_list.php: Error thrown
+
+[08-Feb-2022 10:50:59 Africa/Abidjan] Default exception handler: Exception - Call to undefined function list_studentbatch_datas() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /local/batch/student_list.php: Error thrown
+
+[08-Feb-2022 10:51:02 Africa/Abidjan] Default exception handler: Exception - Call to undefined function list_studentbatch_datas() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /local/batch/student_list.php: Error thrown
+
+[08-Feb-2022 10:52:27 Africa/Abidjan] Default exception handler: Exception - Call to undefined function list_studentbatch_datas() Debug: 
+Error code: generalexceptionmessage
+* line 56 of /local/batch/student_list.php: Error thrown
+
+[08-Feb-2022 10:53:53 Africa/Abidjan] Default exception handler: Exception - Call to undefined function create_student_batch_table() Debug: 
+Error code: generalexceptionmessage
+* line 78 of /local/batch/student_list.php: Error thrown
+
+[08-Feb-2022 10:54:18 Africa/Abidjan] Default exception handler: Exception - Call to undefined function create_student_batch_table() Debug: 
+Error code: generalexceptionmessage
+* line 78 of /local/batch/student_list.php: Error thrown
+
+[08-Feb-2022 16:13:15 Africa/Abidjan] Default exception handler: Exception - Call to a member function getElementValue() on null Debug: 
+Error code: generalexceptionmessage
+* line 195 of /local/batch/form/batch_form.php: Error thrown
+* line 548 of /lib/formslib.php: call to local_batch_form->definition_after_data()
+* line 661 of /lib/formslib.php: call to moodleform->is_validated()
+* line 51 of /local/batch/create_batch.php: call to moodleform->get_data()
+
+[08-Feb-2022 16:13:38 Africa/Abidjan] Default exception handler: Exception - Call to a member function getElementValue() on null Debug: 
+Error code: generalexceptionmessage
+* line 195 of /local/batch/form/batch_form.php: Error thrown
+* line 548 of /lib/formslib.php: call to local_batch_form->definition_after_data()
+* line 661 of /lib/formslib.php: call to moodleform->is_validated()
+* line 51 of /local/batch/create_batch.php: call to moodleform->get_data()
+
+[08-Feb-2022 16:16:09 Africa/Abidjan] Default exception handler: Exception - Call to a member function getElementValue() on null Debug: 
+Error code: generalexceptionmessage
+* line 195 of /local/batch/form/batch_form.php: Error thrown
+* line 548 of /lib/formslib.php: call to local_batch_form->definition_after_data()
+* line 661 of /lib/formslib.php: call to moodleform->is_validated()
+* line 51 of /local/batch/create_batch.php: call to moodleform->get_data()
+
+[09-Feb-2022 03:43:34 Africa/Abidjan] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+SELECT * FROM mdl_user AS u JOIN mdl_company_users AS cu ON cu.userid = u.id WHERE cu.companyid = 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 63 of /local/batch/form/student_form.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to local_student_form->definition()
+* line 60 of /local/batch/add_student.php: call to moodleform->__construct()
+
+[09-Feb-2022 03:51:08 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 65 of /local/batch/add_student.php: Error thrown
+
+[09-Feb-2022 03:51:29 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 65 of /local/batch/add_student.php: Error thrown
+
+[09-Feb-2022 03:53:56 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 64 of /local/batch/add_student.php: Error thrown
+
+[09-Feb-2022 03:54:12 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 64 of /local/batch/add_student.php: Error thrown
+
+[09-Feb-2022 03:57:54 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 56 of /local/batch/add_student.php: Error thrown
+
+[09-Feb-2022 04:01:19 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 59 of /local/batch/add_student.php: Error thrown
+
+[09-Feb-2022 04:06:52 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 60 of /local/batch/add_student.php: Error thrown
+
+[09-Feb-2022 04:26:20 Africa/Abidjan] Default exception handler: Exception - Call to a member function is_cancelled() on null Debug: 
+Error code: generalexceptionmessage
+* line 60 of /local/batch/add_student.php: Error thrown
+
+[19-Feb-2022 17:59:39 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 140 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:01:07 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 164 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:01:34 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 164 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:01:40 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 164 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:03:56 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 164 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:05:01 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 164 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:05:08 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 164 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:05:33 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 142 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:07:34 Africa/Abidjan] Default exception handler: Exception - Object of class html_table could not be converted to string Debug: 
+Error code: generalexceptionmessage
+* line 136 of /local/batch/index.php: Error thrown
+
+[19-Feb-2022 18:22:39 Africa/Abidjan] Default exception handler: Exception - Argument 1 passed to html_writer::table() must be an instance of html_table, null given, called in [dirroot]/local/batch/student_list.php on line 99 Debug: 
+Error code: generalexceptionmessage
+* line 2116 of /lib/outputcomponents.php: TypeError thrown
+* line 99 of /local/batch/student_list.php: call to html_writer::table()
+
+[21-Feb-2022 04:04:54 Africa/Abidjan] Default exception handler: Coding error detected, it must be fixed by a programmer: Invalid string identifier. The identifier cannot be empty. Please fix your get_string() call. Debug: 32767
+Error code: codingerror
+* line 7423 of /lib/moodlelib.php: coding_exception thrown
+* line 7476 of /lib/moodlelib.php: call to get_string()
+* line 85 of /local/batch/student_list.php: call to get_strings()
+
+[10-Mar-2022 11:31:41 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  AND ra.roleid NOT IN (1,2,3,4,6,7,8,9,10,11,12,13,14,15,16) AND u.delete...' at line 4
+SELECT u.* FROM mdl_user AS u 
+			JOIN mdl_company_users AS cu ON cu.userid = u.id 
+			JOIN mdl_role_assignments AS ra ON ra.userid = u.id 
+			WHERE cu.companyid = 1 AND u.timecreated BETWEEN  AND  AND ra.roleid NOT IN (1,2,3,4,6,7,8,9,10,11,12,13,14,15,16) AND u.deleted =0
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 73 of /local/batch/form/student_form.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to local_student_form->definition()
+* line 57 of /local/batch/add_student.php: call to moodleform->__construct()
+
+[11-Mar-2022 08:58:08 Asia/Kolkata] Default exception handler: Error reading from database Debug: Unknown column 'cid' in 'where clause'
+SELECT u.* from mdl_user AS u 
+			JOIN mdl_role_assignments AS ra ON ra.userid = u.id 
+			JOIN mdl_trainer_module AS tm ON tm.userid = u.id 
+			WHERE ra.roleid = 16 AND u.deleted = 0 AND tm.center = cid OR tm.share = 1
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 180 of /local/batch/form/batch_form.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 214 of /lib/formslib.php: call to local_batch_form->definition()
+* line 53 of /local/batch/create_batch.php: call to moodleform->__construct()
+
+[11-Mar-2022 11:12:03 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT bsd.* FROM mdl_batch_student_details AS bsd JOIN mdl_local_batch AS lb...' at line 1
+SELECT * FROM {SELECT bsd.* FROM mdl_batch_student_details AS bsd JOIN mdl_local_batch AS lb ON lb.id = bsd.batch_id}  
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1500 of /lib/dml/moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1451 of /lib/dml/moodle_database.php: call to moodle_database->get_records_select()
+* line 80 of /local/batch/student_list.php: call to moodle_database->get_records()
+
+[25-Mar-2022 22:14:46 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND' at line 1
+SELECT * FROM mdl_local_batch WHERE end_date BETWEEN  AND 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 301 of /local/batch/lib.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 97 of /local/batch/ajax.php: call to lab_availibility_timings()
+
+[25-Mar-2022 22:17:23 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND' at line 1
+SELECT * FROM mdl_local_batch WHERE end_date BETWEEN  AND 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 301 of /local/batch/lib.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 97 of /local/batch/ajax.php: call to lab_availibility_timings()
+
+[25-Mar-2022 22:19:09 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND' at line 1
+SELECT * FROM mdl_local_batch WHERE end_date BETWEEN  AND 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 301 of /local/batch/lib.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 100 of /local/batch/ajax.php: call to lab_availibility_timings()
+
+[26-Mar-2022 10:15:42 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  AND lab =' at line 1
+SELECT * FROM mdl_local_batch WHERE end_date BETWEEN  AND  AND lab = 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 344 of /local/batch/lib.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 96 of /local/batch/ajax.php: call to lab_availibility_timings()
+
+[26-Mar-2022 10:15:44 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND  AND lab =' at line 1
+SELECT * FROM mdl_local_batch WHERE end_date BETWEEN  AND  AND lab = 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 344 of /local/batch/lib.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 96 of /local/batch/ajax.php: call to lab_availibility_timings()
+
+[26-Mar-2022 19:15:27 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+SELECT * FROM mdl_local_batch WHERE trainer1 = 69 OR trainer2 = 69 AND start_date BETWEEN 1643135400 AND 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 110 of /local/batch/ajax.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[26-Mar-2022 19:16:55 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+SELECT * FROM mdl_local_batch WHERE trainer1 = 68 OR trainer2 = 68 AND start_date BETWEEN 1643135400 AND 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 111 of /local/batch/ajax.php: call to mysqli_native_moodle_database->get_records_sql()
+
+[26-Mar-2022 19:18:00 Asia/Kolkata] Default exception handler: Error reading from database Debug: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+SELECT * FROM mdl_local_batch WHERE trainer1 = 68 OR trainer2 = 68 AND start_date BETWEEN 1648233000 AND 
+[array (
+)]
+Error code: dmlreadexception
+* line 486 of /lib/dml/moodle_database.php: dml_read_exception thrown
+* line 1273 of /lib/dml/mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 110 of /local/batch/ajax.php: call to mysqli_native_moodle_database->get_records_sql()
+

@@ -1,0 +1,33 @@
+[21-Feb-2022 05:41:50 Africa/Abidjan] Default exception handler: Can't find data record in database table course_categories. Debug: SELECT id,parent FROM {course_categories} WHERE id = ?
+[array (
+  0 => 0,
+)]
+Error code: invalidrecord
+* line 1646 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1622 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 6801 of /lib/accesslib.php: call to moodle_database->get_record()
+* line 459 of /cohort/lib.php: call to context_coursecat::instance()
+* line 73 of /cohort/index.php: call to cohort_get_all_cohorts()
+
+[21-Feb-2022 05:42:00 Africa/Abidjan] Default exception handler: Can't find data record in database table course_categories. Debug: SELECT id,parent FROM {course_categories} WHERE id = ?
+[array (
+  0 => 0,
+)]
+Error code: invalidrecord
+* line 1646 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1622 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 6801 of /lib/accesslib.php: call to moodle_database->get_record()
+* line 459 of /cohort/lib.php: call to context_coursecat::instance()
+* line 73 of /cohort/index.php: call to cohort_get_all_cohorts()
+
+[26-Mar-2022 11:27:39 Asia/Kolkata] Default exception handler: Can't find data record in database table course_categories. Debug: SELECT id,parent FROM {course_categories} WHERE id = ?
+[array (
+  0 => 0,
+)]
+Error code: invalidrecord
+* line 1646 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1622 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 6801 of /lib/accesslib.php: call to moodle_database->get_record()
+* line 459 of /cohort/lib.php: call to context_coursecat::instance()
+* line 79 of /cohort/index.php: call to cohort_get_all_cohorts()
+

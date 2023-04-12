@@ -1,0 +1,319 @@
+[24-Jan-2022 04:23:42 Africa/Abidjan] Exception ignored in shutdown function tool_log\log\manager::dispose: Error reading from database
+[08-Feb-2022 10:03:26 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:26 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:30 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:30 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:30 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:30 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:30 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:30 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:31 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:31 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[08-Feb-2022 10:03:31 Africa/Abidjan] Default exception handler: Course or activity not accessible. Debug: You are not logged in
+Error code: requireloginerror
+* line 2715 of /lib/moodlelib.php: require_login_exception thrown
+* line 3161 of /lib/moodlelib.php: call to require_login()
+* line 49 of /index.php: call to require_course_login()
+
+[20-Feb-2022 06:45:00 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/8c/96/8c96a486d5801e0f4ab8c411f561f1c687e1f865): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:45:00 Africa/Abidjan] Default exception handler: Cannot read file 'cross.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:45:00 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/75/c1/75c101cb8cb34ea573cd25ac38f8157b1de901b8): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:45:00 Africa/Abidjan] Default exception handler: Cannot read file 'sad.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:45:00 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/0c/51/0c5190a24c3943966541401c883eacaa20ca20cb): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:45:00 Africa/Abidjan] Default exception handler: Cannot read file 'tick.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:45:00 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/5f/8e/5f8e911d0da441e36f47c5c46f4393269211ca56): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:45:00 Africa/Abidjan] Default exception handler: Cannot read file 'smile.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:19 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/8c/96/8c96a486d5801e0f4ab8c411f561f1c687e1f865): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:19 Africa/Abidjan] Default exception handler: Cannot read file 'cross.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:19 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/75/c1/75c101cb8cb34ea573cd25ac38f8157b1de901b8): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:19 Africa/Abidjan] Default exception handler: Cannot read file 'sad.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:19 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/5f/8e/5f8e911d0da441e36f47c5c46f4393269211ca56): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:19 Africa/Abidjan] Default exception handler: Cannot read file 'smile.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:19 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/0c/51/0c5190a24c3943966541401c883eacaa20ca20cb): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:19 Africa/Abidjan] Default exception handler: Cannot read file 'tick.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:39 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/8c/96/8c96a486d5801e0f4ab8c411f561f1c687e1f865): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:39 Africa/Abidjan] Default exception handler: Cannot read file 'cross.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:40 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/8c/96/8c96a486d5801e0f4ab8c411f561f1c687e1f865): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:40 Africa/Abidjan] Default exception handler: Cannot read file 'cross.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:40 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/75/c1/75c101cb8cb34ea573cd25ac38f8157b1de901b8): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:40 Africa/Abidjan] Default exception handler: Cannot read file 'sad.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:40 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/0c/51/0c5190a24c3943966541401c883eacaa20ca20cb): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:40 Africa/Abidjan] Default exception handler: Cannot read file 'tick.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:46:40 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/5f/8e/5f8e911d0da441e36f47c5c46f4393269211ca56): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:46:40 Africa/Abidjan] Default exception handler: Cannot read file 'smile.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:04 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/8c/96/8c96a486d5801e0f4ab8c411f561f1c687e1f865): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:04 Africa/Abidjan] Default exception handler: Cannot read file 'cross.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:04 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/75/c1/75c101cb8cb34ea573cd25ac38f8157b1de901b8): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:04 Africa/Abidjan] Default exception handler: Cannot read file 'sad.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:04 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/5f/8e/5f8e911d0da441e36f47c5c46f4393269211ca56): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:04 Africa/Abidjan] Default exception handler: Cannot read file 'smile.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:04 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/0c/51/0c5190a24c3943966541401c883eacaa20ca20cb): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:04 Africa/Abidjan] Default exception handler: Cannot read file 'tick.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:19 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/8c/96/8c96a486d5801e0f4ab8c411f561f1c687e1f865): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:19 Africa/Abidjan] Default exception handler: Cannot read file 'cross.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:20 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/75/c1/75c101cb8cb34ea573cd25ac38f8157b1de901b8): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:20 Africa/Abidjan] Default exception handler: Cannot read file 'sad.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:20 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/5f/8e/5f8e911d0da441e36f47c5c46f4393269211ca56): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:20 Africa/Abidjan] Default exception handler: Cannot read file 'smile.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+
+[20-Feb-2022 06:57:20 Africa/Abidjan] PHP Warning:  readfile(/home/u405580447/domains/furxotic.in/moodledata/filedir/0c/51/0c5190a24c3943966541401c883eacaa20ca20cb): failed to open stream: No such file or directory in /home/u405580447/domains/furxotic.in/public_html/lib/filelib.php on line 2163
+[20-Feb-2022 06:57:20 Africa/Abidjan] Default exception handler: Cannot read file 'tick.png'. Either the file does not exist or there is a permission problem. Debug: 
+Error code: storedfilecannotreadfile
+* line 67 of /lib/filestorage/file_system.php: file_exception thrown
+* line 444 of /lib/filestorage/stored_file.php: call to file_system->readfile()
+* line 2319 of /lib/filelib.php: call to stored_file->readfile()
+* line 2596 of /lib/filelib.php: call to readfile_accel()
+* line 2741 of /lib/filelib.php: call to send_file()
+* line 70 of /mod/assign/feedback/editpdf/lib.php: call to send_stored_file()
+* line 5119 of /lib/filelib.php: call to assignfeedback_editpdf_pluginfile()
+* line 44 of /pluginfile.php: call to file_pluginfile()
+

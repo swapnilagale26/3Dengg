@@ -1,0 +1,81 @@
+{{!
+    @template theme_alpha/nav-drawer
+
+
+    Example context (json): {}
+}}
+<aside class="nav-drawer-container">
+  <div id="nav-drawer" data-region="drawer" class="d-print-none moodle-has-zindex {{^navdraweropen}}closed{{/navdraweropen}}" aria-hidden="{{#navdraweropen}}false{{/navdraweropen}}{{^navdraweropen}}true{{/navdraweropen}}">
+
+      <div class="nav-drawer-content">
+
+          <button type="button" class="sidebar-btn-close" aria-expanded="{{#navdraweropen}}true{{/navdraweropen}}{{^navdraweropen}}false{{/navdraweropen}}" aria-controls="nav-drawer" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav">
+            <i class="icon fas fa-times"></i>
+          </button>
+
+            {{#showsidebarlogo}}
+            <div class="sidebar-logo w-100 text-center mb-4">
+              <a href="{{#customrooturl}}{{customrooturl}}{{/customrooturl}}{{^customrooturl}}{{{ config.wwwroot }}}{{/customrooturl}}" class="navbar-brand {{#customlogosidebar}}has-logo{{/customlogosidebar}}{{# output.should_display_navbar_logo }}has-logo{{/ output.should_display_navbar_logo }} {{^ output.should_display_navbar_logo }}d-none d-sm-inline{{/ output.should_display_navbar_logo }}">
+
+                  {{^ customlogosidebar}}
+                    {{# output.should_display_navbar_logo }}
+                        <h1 class="logo d-none d-sm-inline">
+                            <img src="{{output.get_compact_logo_url}}" alt="{{sitename}}" class="img-fluid">
+                        </h1>
+                    {{/ output.should_display_navbar_logo }}
+                  {{/ customlogosidebar}}
+                
+
+                  {{#customlogosidebar}}
+                  <h1 class="logo d-none d-sm-inline">
+                      <img src="{{customlogosidebar}}" alt="{{sitename}}" class="img-fluid">
+                  </h1>
+                  {{/customlogosidebar}}
+
+                  <h1 class="{{#customlogosidebar}}hidden{{/customlogosidebar}}{{^customlogosidebar}}{{# output.should_display_navbar_logo }}hidden{{/ output.should_display_navbar_logo }}{{/customlogosidebar}} site-name">{{{ sitename }}}</h1>
+                
+
+              </a>
+            </div>
+            {{/showsidebarlogo}} 
+
+            {{#sidebartopblocks}}
+              {{{ sidebartopblocks }}}
+            {{/sidebartopblocks}}
+            
+            {{> theme_alpha/flat_navigation }}
+
+            {{#sidebarcustomnav}}
+            <div class="sidebar-custom-box-nav my-4">
+                <hr class="hr" />
+                <h4 class="sidebar-custom-box-nav-title">{{{sidebarcustomnavtitle}}}</h4>
+                {{{sidebarcustomnavigationlinks}}}
+            </div>
+            {{/sidebarcustomnav}}
+
+            {{#sidebarcustombox}}
+            <div class="sidebar-custom-box my-4">
+                <hr class="hr" />
+                <h4 class="sidebar-custom-box-title">{{{sidebarcustomheading}}}</h4>
+                <div class="sidebar-custom-box-desc">{{{sidebarcustomtext}}}</div>
+            </div>
+            {{/sidebarcustombox}}
+
+            {{#sidebarblocks}}
+            <div class="mt-5">
+              {{{ sidebarblocks }}}
+            </div>
+            {{/sidebarblocks}}
+
+      </div><!-- ./nav-drawer-content -->
+
+      <div class="nav-drawer-footer">
+
+        {{#showadditionaltext}}
+        <div class="c-additional-text">{{{additionaltext}}}</div>
+        {{/showadditionaltext}}
+
+        {{#output.render_lang_menu}}<div class="c-lang-menu">{{{ output.render_lang_menu }}}</div>{{/output.render_lang_menu}}
+      </div><!-- ./nav-drawer-footer -->
+  </div>
+</aside>

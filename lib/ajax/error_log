@@ -1,0 +1,52 @@
+[29-Jan-2022 07:15:29 Africa/Abidjan] Cannot find session record 348a55fe5b6fedbb51c2a1bdee09fb82 for user 2, creating new session.
+[20-Feb-2022 06:55:07 Africa/Abidjan] instantiating backup controller 9376175a6667f3aec42a8947c2d76381
+[20-Feb-2022 06:55:07 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 06:55:07 Africa/Abidjan] loading controller plan
+[20-Feb-2022 06:55:07 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 06:55:07 Africa/Abidjan] applying plan defaults
+[20-Feb-2022 06:55:07 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 06:55:07 Africa/Abidjan] setting file inclusion to 
+[20-Feb-2022 06:55:07 Africa/Abidjan] checking plan security
+[20-Feb-2022 06:55:07 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 06:55:07 Africa/Abidjan] saving controller to db
+[20-Feb-2022 06:55:07 Africa/Abidjan] calculating controller checksum 240764686c364c013a0464c0ed3481c3
+[20-Feb-2022 06:55:07 Africa/Abidjan] loading controller from db
+[20-Feb-2022 06:55:07 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 06:55:07 Africa/Abidjan] saving controller to db
+[20-Feb-2022 06:55:07 Africa/Abidjan] calculating controller checksum 70924f44b89bbc3e8e272ec5be0301bb
+[20-Feb-2022 06:55:07 Africa/Abidjan] loading controller from db
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 06:55:12 Africa/Abidjan] saving controller to db
+[20-Feb-2022 06:55:12 Africa/Abidjan] instantiating restore controller 985308fc2a6c661f15a3dc4e76209635
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 100
+[20-Feb-2022 06:55:12 Africa/Abidjan] loading backup info
+[20-Feb-2022 06:55:12 Africa/Abidjan] loading controller plan
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 300
+[20-Feb-2022 06:55:12 Africa/Abidjan] applying restore defaults
+[20-Feb-2022 06:55:12 Africa/Abidjan] Unknown setting: questionbank
+[20-Feb-2022 06:55:12 Africa/Abidjan] Unknown setting: overwrite_conf
+[20-Feb-2022 06:55:12 Africa/Abidjan] Unknown setting: course_fullname
+[20-Feb-2022 06:55:12 Africa/Abidjan] Unknown setting: course_shortname
+[20-Feb-2022 06:55:12 Africa/Abidjan] Unknown setting: course_startdate
+[20-Feb-2022 06:55:12 Africa/Abidjan] Unknown setting: questionbank
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 400
+[20-Feb-2022 06:55:12 Africa/Abidjan] checking plan security
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 600
+[20-Feb-2022 06:55:12 Africa/Abidjan] saving controller to db
+[20-Feb-2022 06:55:12 Africa/Abidjan] calculating controller checksum 4d84c4fa5cf58f638a36b31f30de6dd3
+[20-Feb-2022 06:55:12 Africa/Abidjan] loading controller from db
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 700
+[20-Feb-2022 06:55:12 Africa/Abidjan] saving controller to db
+[20-Feb-2022 06:55:12 Africa/Abidjan] calculating controller checksum 6549a3b52aa11211bbcdd66801ad69df
+[20-Feb-2022 06:55:12 Africa/Abidjan] loading controller from db
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 800
+[20-Feb-2022 06:55:12 Africa/Abidjan] saving controller to db
+[20-Feb-2022 06:55:12 Africa/Abidjan] calculating controller checksum cb6b05ae017a2fdab3eb7f26a9b13ba4
+[20-Feb-2022 06:55:12 Africa/Abidjan] loading controller from db
+[20-Feb-2022 06:55:12 Africa/Abidjan] processing file aliases queue
+[20-Feb-2022 06:55:12 Africa/Abidjan] setting controller status to 1000
+[20-Feb-2022 06:55:12 Africa/Abidjan] saving controller to db
+[20-Feb-2022 21:57:43 Africa/Abidjan] Default exception handler: Coding error detected, it must be fixed by a programmer: Invalid json in request: Syntax error Debug: 
+Error code: codingerror
+* line 63 of /lib/ajax/service.php: coding_exception thrown
+

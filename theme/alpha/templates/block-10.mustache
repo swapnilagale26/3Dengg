@@ -1,0 +1,46 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{#fpblock10}}
+{{#showfpblock10hr}}<hr class="hr-small" />{{/showfpblock10hr}}
+
+<div id="block10" class="l-container section-padding">
+
+  {{#showfpblock10intro}}
+  <div class="s-section-desc col-sm-11 col-md-8 col-lg-5 ml-auto mr-auto mb-5 text-center">
+    {{#fpblock10title}}<h3 class="c-section-desc-heading">{{{fpblock10title}}}</h3>{{/fpblock10title}}
+    {{#fpblock10content}}<div class="c-section-desc">{{{fpblock10content}}}</div>{{/fpblock10content}}
+  </div>
+  {{/showfpblock10intro}}
+
+  <div class="row no-gutters">
+
+    {{#block10}}
+    <div class="col-sm-12 col-md-4 {{#fpblock10layout}}{{.}}{{/fpblock10layout}} p-2" id="block10-{{{fpblock10no}}}">
+      <div class="block10-card px-4 py-3 text-center">
+        {{#image}}<img src="{{{image}}}" alt="{{fpblock1heading}}" class="block10-img-icon img-fluid mb-2"/>{{/image}}
+        {{#fpblock10heading}}<h3 class="h3 my-2">{{{fpblock10heading}}}</h3>{{/fpblock10heading}}
+        {{#fpblock10subheading}}<h5 class="font-weight-normal mb-3">{{{fpblock10subheading}}}</h5>{{/fpblock10subheading}}
+        {{#fpblock10additionaltext}}{{{fpblock10additionaltext}}}{{/fpblock10additionaltext}}
+      </div>
+    </div>
+    {{/block10}}
+
+  </div>
+
+
+</div>
+{{/fpblock10}}
